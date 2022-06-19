@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@500;600;700&family=Poppins:wght@500&family=Roboto&display=swap');
+
+:root {
+    --red: #DA2535;
+    --gray: #616161;
+    --white: #FBFBFB;
+    --white-200: #F3F3F3;
+    --black: #292929;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1340px;
+}
+
+header {
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header .container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 40px;
+    font-family: 'Montserrat';
+    cursor: pointer;
+}
+
+.logo span {
+    color: var(--red);
+}
+
+.navbar .menu {
+    display: flex;
+    font-family: 'Inter';
+    font-size: 24px;
+}
+
+.menu .menu-item {
+    list-style: none;
+    padding: 10px;
+    height: 50px;
+    width: 180px;
+    display: flex;
+    margin: 0 .5em;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+header button {
+    font-family: 'Inter';
+    font-size: 24px;
+    height: 50px;
+    width: 180px;
+    background: none;
+    border: 2px solid var(--black);
+    border-radius: 10px;
+    cursor: pointer;
+}
